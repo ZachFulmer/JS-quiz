@@ -1,0 +1,40 @@
+body 
+{
+    background: #ededed;
+    color: black;
+    font-size: 32px;
+}
+
+#nav-bar
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 30px;
+}
+
+.high-score-btn
+{
+    font-size: 32px;
+    color: maroon;
+    border: none;
+}
+
+#main
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15% 40px;    
+}
+
+.questions
+{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.buttons
+{
+    background: maroon;
+    color: white;
+
+}

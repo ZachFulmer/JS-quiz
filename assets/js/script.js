@@ -141,8 +141,6 @@ var BtnHandler = function(event)
     // if an answer is selected during the questionaire
     if(event.target.matches("#A1") || event.target.matches("#A2") || event.target.matches("#A3") || event.target.matches("#A4"))
     {
-        console.log(event.target.textContent);
-        console.log(quizObj[questionCount].correctAnswer);
         if(event.target.textContent === quizObj[questionCount].correctAnswer)
         {
             // proceed to new question

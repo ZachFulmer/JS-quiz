@@ -12,7 +12,7 @@ body
     margin: 15px 30px;
 }
 
-.high-score-btn
+#high-score-btn
 {
     font-size: 32px;
     color: maroon;
@@ -58,5 +58,17 @@ body
     color: #ededed;
     border: none;
     border-radius: 25px;
+    font-size: 32px;
+}
+
+.submitInitialsDiv
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#submitInitials
+{
     font-size: 32px;
 }

@@ -23,7 +23,15 @@ body
 {
     display: flex;
     flex-wrap: wrap;
-    margin: 15% 40px;    
+    margin: 40px 15%;
+    align-content: center;
+    text-align: center;
+}
+
+.instructions
+{
+    margin: 5px 0;
+    flex: 1 1 100%;
 }
 
 .questions
@@ -32,9 +40,20 @@ body
     font-weight: bold;
 }
 
-.buttons
+.answers
 {
     background: maroon;
     color: white;
+    margin: 20px 0;
+}
 
+.buttonGeneral
+{
+    background: maroon;
+    margin: 20px 0;
+    padding: 5px 10px;
+    color: #ededed;
+    border: none;
+    border-radius: 25px;
+    font-size: 32px;
 }
